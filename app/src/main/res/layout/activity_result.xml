@@ -43,6 +43,9 @@
         android:text="MainMenu"
         android:id="@+id/button_result_to_start"
         android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@drawable/gray_button"
+        app:backgroundTint="@null"
         android:layout_margin="10dp"/>
 
 </RelativeLayout>

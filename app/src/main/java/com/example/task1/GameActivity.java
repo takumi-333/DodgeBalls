@@ -219,7 +219,7 @@ public class GameActivity extends AppCompatActivity implements SensorEventListen
         }
 
         //player's ballの挙動
-        playerBall.vx += (float) (gx * 30 / 1000);
+        playerBall.vx += (float) (gx * 0.03f);
         playerBall.x += playerBall.vx * screenWidth / 300.0f;
         if (playerBall.x > screenWidth - playerBall.radius) {
             playerBall.x = screenWidth - playerBall.radius;
